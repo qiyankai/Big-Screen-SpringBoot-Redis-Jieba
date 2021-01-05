@@ -1,0 +1,16 @@
+server:
+  port: 8088
+
+spring:
+  datasource:                                           # 数据源的相关配置
+    url: jdbc:oracle:thin:@192.168.60.240:1521:npcbj
+    username: npcbj
+    password: npcbj
+  redis:
+    database: 0
+    host: 192.168.60.240
+    port: 6379
+
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
