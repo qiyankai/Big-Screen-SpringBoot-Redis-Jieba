@@ -2,6 +2,7 @@
 ### 1 后端项目
 #### 1.1 项目简介
 [博客地址](https://blog.csdn.net/Mrkaizi/article/details/112240338)
+
 让我们先理解这个项目的原理
 1. 先整理好前端需要的各种图表的数据，将其SQL语句存入query_statement表
 2. 再定期执行这些SQL，执行结果放Redis
